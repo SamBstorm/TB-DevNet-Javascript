@@ -24,3 +24,11 @@ let age_date = new Date(age_ms);
 let age = age_date.getFullYear() - 1970;
 
 alert(`Wahouw vous avez ${age}ans!`);
+
+new Date();//Date système
+new Date(-10000); //Date du 1/1/1970 - 10000 millisecondes
+new Date(10000); //Date du 1/1/1970 + 10000 millisecondes
+new Date(3000,11,31); //31 décembre 3000
+new Date(3000,11,31,12,0,0,0); //31 décembre 3000 à midi pile
+
+
